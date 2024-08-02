@@ -12,6 +12,11 @@ error_reporting(E_ALL);
 require_once('../FPDI-2.6.0/src/autoload.php');
 require('../fpdf186/fpdf.php');
 
+/**
+ *  Include required libraries with Composer
+ *  require_once 'path/to/vendor/autoload.php';
+ */
+
 use setasign\Fpdi\Fpdi;
 
 /**
